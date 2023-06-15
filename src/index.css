@@ -1,13 +1,68 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.note{
+    background-color: #252522;
+    border-radius: 10px;
+    min-height: 170px;
+    padding: 1rem;
+    display:flex ; 
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.note-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.note-list{
+    display: grid;
+    grid-gap: 1rem ; 
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+}
+.main-body{
+    max-width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px ;
+}
+.note.new{
+    background-color: rgb(93, 77, 175) ; 
+}
+textarea{
+    border:none ; 
+    resize:none ; 
+    background-color: rgb(93, 77, 175) ; 
+    color: white;
+}
+textarea:focus{
+    outline: none;
+}
+.sve-btn{
+    border: none;
+    border-radius: 20px;
+    padding:1fr;
+    background-color: rgb(93, 77, 175) ; 
+}
+.sve-btn:hover{
+    background-color: rgb(93, 77, 175) ; 
+    cursor: pointer;
+}
+.delete-icon {
+    cursor: pointer;
+}
+.search{
+    display: flex;
+    align-items: center;
+    background-color: silver;
+    border-radius: 10px;
+    padding:5px;
+    margin: 1.5em;  
+}
+.search input{
+    border: none;
+    background-color: silver;
+     
+}
+.search input{
+    outline: none;
 }
