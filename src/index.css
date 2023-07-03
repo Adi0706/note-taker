@@ -26,13 +26,13 @@
     padding-right: 15px ;
 }
 .note.new{
-    background-color: rgb(93, 77, 175) ; 
+    background-color: rgb(187, 230, 103) ; 
 }
 textarea{
     border:none ; 
     resize:none ; 
-    background-color: rgb(93, 77, 175) ; 
-    color: white;
+    background-color: rgb(187, 230, 103) ; 
+    color: rgb(17, 16, 16);
 }
 textarea:focus{
     outline: none;
@@ -41,10 +41,10 @@ textarea:focus{
     border: none;
     border-radius: 20px;
     padding:1fr;
-    background-color: rgb(93, 77, 175) ; 
+    background-color: rgb(187, 230, 103) ; 
 }
 .sve-btn:hover{
-    background-color: rgb(93, 77, 175) ; 
+    background-color: rgb(187, 230, 103) ; 
     cursor: pointer;
 }
 .delete-icon {
@@ -65,4 +65,8 @@ textarea:focus{
 }
 .search input{
     outline: none;
+}
+.header-txt{
+    margin: 5px;
+     text-align: center;
 }

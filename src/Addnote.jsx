@@ -26,14 +26,10 @@ const handleChange = (event) =>{
             onChange={handleChange}
             >
             </textarea>
-            <textarea rows="8" cols="10" placeholder="DESCRIPTION"
-            value={noteText}
-            onChange={handleChange}
-            >
-            </textarea>
+           
 
             <div className="note-footer">
-                <small>200 Remaining</small>
+                
                 <button className="sve-btn" onClick={handleSaveClick}><IoIosAdd/></button>
             </div>
 
